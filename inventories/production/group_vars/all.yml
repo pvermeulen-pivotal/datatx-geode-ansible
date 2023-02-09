@@ -7,7 +7,7 @@ cluster_name: cluster-production-{{ cluster_type }}-cluster
 jdk_version: 1.8.0_211
 jdk_home_path: /opt/jdk/
 jdk_file_name: jdk-8u211-linux-x64.tar.gz
-gemfire_version: 9.7.2
+gemfire_version: 9.15.3
 gemfire_base_name: pivotal-gemfire-{{ gemfire_version }}
 gemfire_home: /opt/middleware/pivotal/
 gemfire_file_name: "{{ gemfire_base_name }}.tgz"

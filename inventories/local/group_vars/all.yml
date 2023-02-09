@@ -3,7 +3,7 @@ gemfire_user: gemfire
 gemfire_group: gemfire
 server_port: 40404
 locator_port: 10334
-cluster_name: citi-mvp-{{ cluster_type }}-cluster
+cluster_name: cluster-local-{{ cluster_type }}-cluster
 jdk_version: 1.8.0_211
 jdk_home_path: /opt/jdk/
 jdk_file_name: jdk-8u211-linux-x64.tar.gz
